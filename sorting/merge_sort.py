@@ -1,3 +1,6 @@
+# 분할 정복 패러다임에 기반, 전부 절반으로 나눈다. 
+# 최대한 분할한 뒤(logn) bottom-up방식으로 대소비교해가면(n) 시간복잡도는 O(nlogn)
+
 def merge_sort(arr):
     if len(arr)<=1:
         return arr
